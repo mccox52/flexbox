@@ -1,0 +1,138 @@
+
+html {
+  font-size: 62.5%;
+}
+
+
+
+
+
+
+Body {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+
+}
+
+A {
+ text-decoration: none;
+ }
+ 
+A:visited { 
+  text-decoration: none; color:black; 
+  }
+  
+A:hover { 
+  text-decoration: none; color:black; 
+  }
+  
+A:focus { 
+  text-decoration: none; color:black; 
+  }
+  
+A:hover, a:active { 
+  text-decoration: none; color:green; 
+  } 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+h2 {
+  font-family: 'Julius Sans One', sans-serif;
+   }
+   
+p {
+   font-family: 'Julius Sans One', sans-serif;
+   }   
+
+
+
+
+
+
+Nav {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ width: 70rem;
+ justify-content: space-between;
+ font-family: 'Julius Sans One', sans-serif;
+ font-size: 1.75rem;
+ color: black;
+}
+
+
+
+
+
+
+
+Header {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+
+}
+
+
+
+
+
+
+
+
+Main {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ width: 75rem;
+
+}
+
+.mainheadingtitle {
+  font-family: 'Montserrat Subrayada', sans-serif;
+  color: gainsboro;
+  font-size: 2rem;
+  
+}
+
+
+.mainarticle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+   
+
+Article {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ width: 75rem;
+
+}   
+   
+   
+   
+
+Aside {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+
+
+
+
+
+
+
