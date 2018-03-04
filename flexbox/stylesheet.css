@@ -1,6 +1,61 @@
-
 html {
-  font-size: 62.5%;
+font-size: 62.5%;
+}
+
+
+
+body {
+width: 80%;
+max-width: 800px;
+margin: 0 auto;
+font-family: 'Julius Sans One', sans-serif;
+}
+
+
+a {
+text-decoration: none;
+}
+
+a:visited { 
+text-decoration: none; color:black; 
+}
+
+a:hover { 
+text-decoration: none; color:black; 
+}
+
+a:focus { 
+text-decoration: none; color:black; 
+}
+
+a:hover, a:active { 
+text-decoration: none; color:green; 
+} 
+
+
+
+
+
+
+
+
+nav {
+display: flex;
+justify-content: center;
+font-size: 1.75rem;
+color: black;
+}
+
+
+@media only screen and (max-width: 500px) {
+
+
+nav {
+text-align: center;
+flex-direction:column;
+font-size: 1rem;
+}
+
 }
 
 
@@ -8,74 +63,12 @@ html {
 
 
 
-Body {
- display: flex;
- flex-direction: column;
- align-items: center;
-
-}
-
-A {
- text-decoration: none;
- }
- 
-A:visited { 
-  text-decoration: none; color:black; 
-  }
-  
-A:hover { 
-  text-decoration: none; color:black; 
-  }
-  
-A:focus { 
-  text-decoration: none; color:black; 
-  }
-  
-A:hover, a:active { 
-  text-decoration: none; color:green; 
-  } 
- 
- 
- 
- 
- 
- 
- 
- 
-h2 {
-  font-family: 'Julius Sans One', sans-serif;
-   }
-   
-p {
-   font-family: 'Julius Sans One', sans-serif;
-   }   
 
 
-
-
-
-
-Nav {
- display: flex;
- flex-direction: row;
- align-items: center;
- width: 70rem;
- justify-content: space-between;
- font-family: 'Julius Sans One', sans-serif;
- font-size: 1.75rem;
- color: black;
-}
-
-
-
-
-
-
-
-Header {
- display: flex;
- flex-direction: row;
- justify-content: center;
+header {
+display: flex;
+flex-direction: row;
+justify-content: center;
 
 }
 
@@ -87,52 +80,57 @@ Header {
 
 
 Main {
- display: flex;
- flex-direction: column;
- align-items: center;
- width: 75rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 75rem;
 
 }
 
 .mainheadingtitle {
-  font-family: 'Montserrat Subrayada', sans-serif;
-  color: gainsboro;
-  font-size: 2rem;
-  
+font-family: 'Montserrat Subrayada', sans-serif;
+color: gainsboro;
+font-size: 2rem;
+
 }
 
 
 .mainarticle {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-
-
-   
-
-Article {
- display: flex;
- flex-direction: column;
- align-items: center;
- width: 75rem;
-
-}   
-   
-   
-   
-
-Aside {
- display: flex;
- flex-direction: column;
- align-items: center;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 
 
 
 
+article {
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 75rem;
 
+} 
+
+
+
+
+aside {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+
+
+.nav-item {
+padding: 10px;
+}
+
+.img-fluid {
+width: 100%;
+}
 
 
